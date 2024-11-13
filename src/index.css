@@ -11,6 +11,10 @@
   background-color: #111;
   color: #fff;
 }
+body::-webkit-scrollbar{
+  /* overflow:scroll; */
+  display: none;
+}
 
 .menuItemList{
   letter-spacing: 1px;

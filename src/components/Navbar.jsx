@@ -5,9 +5,9 @@ import { FaRegMessage } from "react-icons/fa6";
 const Navbar = () => {
   return (
     <div>
-        <nav className='max-w-screen-xl mx-auto px-10 mt-8 flex justify-between items-center'>
+        <nav className='md:max-w-screen-xl mx-auto px-10 mt-8 flex justify-between items-center'>
             <div>
-                <h1 className='text-[1.2vw] text-[yellow] tracking-[1px] font-semibold'>Deependra</h1>
+                <h1 className='md:text-[1.2vw] text-[3.5vw] text-[yellow] tracking-[1px] font-semibold'>Deependra</h1>
             </div>
             <div className='flex gap-[3vw]'>
                 <Link className="menuItemList text-white cursor-pointer text-[1.2vw] pb-1">Home</Link>
