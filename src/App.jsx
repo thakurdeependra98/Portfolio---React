@@ -1,14 +1,12 @@
 import { useState } from 'react'
-import Navbar from './components/Navbar'
-import Intro from './components/Intro'
+import  Route from "./routes/route.jsx"
 
 function App() {
 
   return (
-    <>
-      <Navbar/>
-      <Intro/>
-    </>
+    <div className='bg-[#111111f5]'>
+      <Route/>
+    </div>
   )
 }
 

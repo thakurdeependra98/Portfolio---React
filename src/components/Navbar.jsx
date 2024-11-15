@@ -1,17 +1,19 @@
 import React from 'react'
-import { Link } from 'react-scroll'
+// import Route from '../routes/Routes';
+
 import { FaRegMessage } from "react-icons/fa6";
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
-    <div>
-        <nav className='md:max-w-screen-xl mx-auto px-10 mt-8 flex justify-between items-center'>
+    <div className='w-screen absolute '>
+        <nav className='md:max-w-screen-xl md:h-[6vw] mx-auto px-10 pt-8 flex justify-between items-center '>
             <div>
                 <h1 className='md:text-[1.2vw] text-[3.5vw] text-[yellow] tracking-[1px] font-semibold'>Deependra</h1>
             </div>
             <div className='flex gap-[3vw]'>
-                <Link className="menuItemList text-white cursor-pointer text-[1.2vw] pb-1">Home</Link>
-                <Link className="menuItemList text-white cursor-pointer text-[1.2vw] pb-1">About</Link>
+                <Link to="/" className="menuItemList text-white cursor-pointer text-[1.2vw] pb-1">Home</Link>
+                <Link to="/about" className="menuItemList text-white cursor-pointer text-[1.2vw] pb-1">About</Link>
                 <Link className="menuItemList text-white cursor-pointer text-[1.2vw] pb-1">Projects</Link>
                 <Link className="menuItemList text-white cursor-pointer text-[1.2vw] pb-1">Contact</Link>
             </div>
